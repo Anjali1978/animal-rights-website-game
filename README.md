@@ -1,1 +1,1 @@
-# animal-rights-website-game
+# Animal-Rights-Final

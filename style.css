@@ -1,0 +1,332 @@
+ body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  background-color:rgb(213, 235, 250);
+}
+
+canvas {
+
+  display:block;
+}
+
+.para{
+
+  position: absolute;
+  top: 1900px;
+}
+
+.title{
+
+  position: absolute;
+  color:rgb(94, 154, 251);
+  left: -250px;
+  opacity: 100%;
+  z-index: 9999;
+  top: 450px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  rotate: 100px;
+  font-size: 40px;
+  transform:rotate(-90deg);
+  text-decoration-line: underline;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.heading{
+
+  opacity: 70%;
+ position: absolute;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+
+.heading svg{
+
+  display: block;
+  width: 2000px;
+}
+.quote{
+
+  position:absolute;
+  top: 960px;
+  left:360px;
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: rgb(248, 134, 181);
+  opacity: 70%;
+  width: 1250px;
+
+}
+
+.allLinks{
+
+  position: relative;
+  background-color: rgb(235, 186, 147);
+  height: 100px;
+  bottom:20px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.gameLink {
+
+  position: relative;
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  align-content: center;
+  align-self: center;
+  margin-left:10%;
+  border-color: #000;
+  border-width: 50;
+  margin-bottom: 10px;
+ 
+}
+
+.gameLink p{
+
+  font-size: 25px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.border{
+
+  border-radius: 100;
+  border-color: black;
+  position: absolute;
+  height:200;
+  width:100;
+
+}
+
+.websiteLink {
+
+  position: absolute;
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-left:45%;
+  border-color: #000;
+  border-width: thick;
+  margin-top: -110px;
+ 
+}
+
+.websiteLink p{
+
+  font-size: 25px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.websiteLink a{
+
+  margin-left: -150px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cloud1{
+
+  position: absolute;
+  top: 2500px;
+}
+
+.cloud2{
+
+  position: absolute;
+  top: 3400px;
+  left: 1300px;
+}
+
+.cloud3{
+
+  position: absolute;
+  top: 4200px;
+ 
+}
+
+.cloud4{
+
+  position: absolute;
+  top: 5200px;
+  left: 1300px;
+}
+
+.branch1{
+
+  position: absolute;
+  top: 6000px;
+  right: 300px;
+}
+
+.branch2{
+
+  position: absolute;
+  top: 6500px;
+  left: 1400px;
+}
+
+
+.land{
+
+  position: absolute;
+  top: 7000px;
+  opacity: 50%;
+}
+
+.content_heading{
+
+  position: absolute;
+  bottom: -200px;
+  left: 860px;
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration-line: underline;
+  color: rgb(21, 71, 96);
+ 
+}
+.intro{
+  position: absolute;
+  top: 1610px;
+  left: 370px;
+  width: 450px;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(61, 178, 214);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+.intro2{
+ 
+  position: absolute;
+  top: 1750px;
+  left: 1450px;
+  width: 500px;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(61, 178, 214);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+.img_intro{
+
+  position: relative;
+  top: 1300px;
+  opacity: 80%;
+}
+
+.img_intro2{
+
+  position: relative;
+  top: 900px;
+  left: 1100px;
+  opacity: 80%;
+}
+.allContent{
+
+  position: absolute;
+
+}
+
+.laws{
+
+  position: absolute;
+  top: 2400px;
+  width: 10px;
+  padding-left: 20px;
+  left: 230px;
+  font-size: 30px;
+  text-align: center;
+  
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+
+.laws p{
+
+  width: 30px;
+  color: rgb(14, 96, 54);
+  width: 1200px;
+  
+
+}
+.ladder{
+
+  position: absolute;
+  top: 2900px;
+  transform: rotate(-90deg);
+}
+
+.ladder1{
+  position: absolute;
+  top: 4600px;
+  transform: rotate(-90deg);
+
+}
+.ladder2{
+  position: absolute;
+  top: 6300px;
+  transform: rotate(-90deg);
+
+}
+.laws h4{
+
+  text-decoration: underline;
+  color: rgb(21, 71, 96);
+}
+.conclusion{
+
+  position: absolute;
+  top: 5980px;
+  font-size: 30px;
+  left: 950px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 20px;
+  margin-top: 2000px;
+  color: rgb(0, 0, 0);;
+  width: max-content;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.conclusion h4{
+
+  text-decoration: underline;
+  color: rgb(25, 74, 235);
+}
+.img1{
+
+  position: absolute;
+  top: 1095px;
+  
+}
+.img2{
+  position: absolute;
+  top: 1095px;
+  left: 1620px;
+
+}
+.img3{
+
+  position: absolute;
+  top: 2000px;
+  left: 1620px;
+}
+
+.img4{
+
+  position: absolute;
+  top: 3px;
+  padding-left: 20px;
+  margin-top: 2000px;
+
+  left: 500px;
+  
+}
+
+
+
+
+
+

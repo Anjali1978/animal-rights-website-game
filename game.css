@@ -1,0 +1,104 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  canvas {
+    display: block;
+  }
+  
+  #fact1{
+  
+    position: absolute;
+    top: 300px;
+    right: 80px;
+    background-color: rgb(28, 109, 134);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 70%;
+    animation: fadeIn 10s;
+  
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  
+  #fact2{
+  
+    position: absolute;
+    top: 600px;
+    right: 1350px;
+    background-color: rgb(28, 109, 134);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 70%;
+    animation: fadeIn 10s;
+  
+  }
+  
+  
+  #fact3{
+  
+    position: absolute;
+    top: 850px;
+    right: 200px;
+    background-color: rgb(28, 109, 134);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 70%;
+    animation: fadeIn 10s;
+  
+  }
+  
+  #fact4{
+  
+    position: absolute;
+    top: 800px;
+    right: 700px;
+    background-color: rgb(28, 109, 134);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 70%;
+    animation: fadeIn 10s;
+  
+  }
+  
+  #fact5{
+  
+    position: absolute;
+    top: 200px;
+    right: 1400px;
+    background-color: rgb(28, 109, 134);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 70%;
+    animation: fadeIn 10s;
+  
+  }
+  
+  #fact6{
+  
+    position: absolute;
+    top: 600px;
+    right: 100px;
+    background-color: rgb(28, 109, 134);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 70%;
+    animation: fadeIn 10s;
+  
+  }
